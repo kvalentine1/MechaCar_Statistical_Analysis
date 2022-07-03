@@ -20,8 +20,8 @@ The linear model does predict the mpg of the MechaCar effectively. The r-squared
 
 The MechaCar suspension coils design specifications dictate that the suspension coils must not exceed 100 pounds per square inch. The three lots total have a combined variance of 62.3 which is within design specifications. Individually, Lots 1 and 2 are within design specifications but Lot 3 exceeds the specifications with a variance of 170.3.
 
-<img src = "screenshots/lot_summary.png">
 <img src = "screenshots/total_summary.png">
+<img src = "screenshots/lot_summary.png">
 
 
 
@@ -54,4 +54,4 @@ Our null hypothesis would be that MechaCar vehicles have similar MPG to competit
 Our alternate hypothesis is that MechaCar vehicles have better or worse MPG than competitor vehicles with similar performance. 
 
 To evaluate this data we would use linear regression and t-test statistical tests.
-![image](https://user-images.githubusercontent.com/101373173/177052063-428aea1a-6066-4055-8656-260197556d65.png)
+
