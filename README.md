@@ -4,25 +4,46 @@ The purpose of this analysis is to analyze vehicle production metrics with linea
 
 ## Linear Regression to Predict MPG
 
+<img src = "screenshots/linear_regression_model.png">
+
 Three coefficients provided a non-random amount of variance to the mpg based on the linear regression model. These coefficients are vehicle length, ground clearance, and mpg (the intercept). 
+
+<img src = "screenshots/lm_summary.png">
 
 The slope of the linear model would not be considered zero. The p-value of 5.35e-11 is smaller than the assumed significance level of 0.05. Therefore, the null hypothesis would be rejected indicating this is a non-zero slope.
 
 The linear model does predict the mpg of the MechaCar effectively. The r-squared value is 0.7149 which indicates that this model will effectively predict 71% of mpg predictions.
 
+
+
 ## Summary Statistics on Suspension Coils
 
 The MechaCar suspension coils design specifications dictate that the suspension coils must not exceed 100 pounds per square inch. The three lots total have a combined variance of 62.3 which is within design specifications. Individually, Lots 1 and 2 are within design specifications but Lot 3 exceeds the specifications with a variance of 170.3.
+
+<img src = "screenshots/lot_summary.png">
+<img src = "screenshots/total_summary.png">
+
+
 
 ## T-Tests on Suspension Coils
 
 The t-test of all lots indicates that the PSI among all lots is not statistically different from the population mean as indicated by the p-value of 0.603.
 
+<img src = "screenshots/all_lots_ttest.png">
+
 The t-test of Lot1 indicates that the PSI of Lot 1 is not statistically different from the population mean as indicated by the p-value of 1.
+
+<img src = "screenshots/lot1_ttest.png">
 
 The t-test of Lot1 indicates that the PSI of Lot 2 is not statistically different from the population mean as indicated by the p-value of 0.61.
 
+<img src = "screenshots/lot2_ttest.png">
+
 The t-test of Lot1 indicates that the PSI of Lot 3 is slightly statistically different from the population mean as indicated by the p-value of 0.042.
+
+<img src = "screenshots/lot3_ttest.png">
+
+
 
 ## Study Design: MechaCar vs Competition
 
